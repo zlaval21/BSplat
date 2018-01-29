@@ -1,3 +1,8 @@
+/*
+* author: Zackery Lavalais
+* name: Bug Splat
+*/
+
 var clones = [];
 var numberOfclones = 12;
 var clonesprite = "Sprite.png";
@@ -144,7 +149,7 @@ function draw() {
     fill(color('orange'));
     textAlign(CENTER);
     textSize(26);
-    text("This is Clone Squish", screenWidth/2, screenHeight/2-textY);
+    text("This is Bug Splat", screenWidth/2, screenHeight/2-textY);
     textSize(19);
     text("Press F to start whenever you're ready", screenWidth/2, screenHeight/2);
 
